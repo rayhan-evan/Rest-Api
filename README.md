@@ -128,6 +128,15 @@ Response:
 204 No Content on successful deletion.
 ```
 
+## Using the Frontend
+**View Existing Items:**
+    * Items are displayed in the "Items List" section when the page loads.
+**Add an Item:**
+    * Enter the name and price in the "Add Item" form.
+    * Click "Add Item" to submit.
+**Delete an Item:**
+    * Click the "Delete" button next to an item in the list.
+
 ## Using the API Client
 
 A separate file apiClient.js is included to interact with the API.
