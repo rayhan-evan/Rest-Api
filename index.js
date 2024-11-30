@@ -1,10 +1,15 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const cors = require('cors'); // Import cors
 
 const app = express();
 const port = 3001;
 
 // Use body-parser middleware to parse JSON data
+app.use(bodyParser.json());
+
+// Middleware: CORS and body-parser
+app.use(cors()); // Ensure this is before routes
 app.use(bodyParser.json());
 
 // In-memory "database" (can replace with MongoDB, MySQL, etc.)
