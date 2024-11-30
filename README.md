@@ -106,8 +106,9 @@ Response:
 Delete an item by ID.
 
 Response:
-
+```json
 204 No Content on successful deletion.
+```
 
 ## Using the API Client
 
