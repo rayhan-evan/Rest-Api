@@ -119,10 +119,10 @@ A separate file apiClient.js is included to interact with the API.
 Modify the name and price parameters in the addItem function in apiClient.js.
 Run the file: node apiClient.js
 
-Delete an item:
+## Delete an item:
 
 Modify the id in the deleteItem function in apiClient.js.
 Run the file: node apiClient.js
 
-Customization
+## Customization
 Feel free to modify the API, add features, or replace the in-memory database with a real database such as MongoDB, MySQL, or PostgreSQL.
